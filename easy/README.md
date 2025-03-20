@@ -4,4 +4,6 @@
 
 ![screenshot](screenshots/1.png)
 
-![screen_recording](screenshots/0.mp4)
+##### Screen Recording
+<video src="./screenshots/0.mp4" controls width=500></video>
+![Screen Recording](screenshots/0.mp4)

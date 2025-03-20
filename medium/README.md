@@ -93,4 +93,5 @@ echo "Successfully built R and set r-devel to be used in new R terminals. Exitin
 
 (fast forwarded the building part)
 
-![screen_recording](screenshots/0.mp4)
+<video src="./screenshots/0.mp4" controls width=500></video>
+![Screen Recording](screenshots/0.mp4)

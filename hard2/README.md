@@ -14,7 +14,10 @@ The docker container:
 
 ![running-r](screenshots/running-r.png)
 
-![running-r-screen-recording](screenshots/running_r.mp4)
+##### Screen Recording
+
+<video src="./screenshots/running_r.mp4" controls width=500></video>
+![running-R-screen-recording](screenshots/running_r.mp4)
 
 ### What works and what doesn't?
 
