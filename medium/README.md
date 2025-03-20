@@ -1,6 +1,6 @@
 # Medium Test Results
 
-### The Bash Script
+## The Bash Script
 
 ```bash
 #!/bin/bash
@@ -71,25 +71,29 @@ echo "Successfully built R and set r-devel to be used in new R terminals. Exitin
 
 ```
 
-### Screenshots
+---
 
-#### 1. R version 86123 running in VS Code
+## Screenshots
+
+### 1. R version 86123 running in VS Code
 
 ![image](screenshots/1.png)
 
+---
 
-#### 2. Some of the script output
+### 2. Some of the script output
 
 ![image](screenshots/2.png)
 
+---
 
-
-#### 3. R version 86122 running in VS Code
+### 3. R version 86122 running in VS Code
 
 ![image](screenshots/3.png)
 
+---
 
-### Recording of the Entire Test
+## Recording of the Entire Test
 
 (fast forwarded the building part)
 

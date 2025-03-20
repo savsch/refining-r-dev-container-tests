@@ -1,10 +1,10 @@
 # Hard-1 Test Results
 
-### Synopsis
+## Synopsis
 
 Check out the [pull request](https://github.com/r-devel/r-dev-env/pull/204).
 
-### Screenshots
+## Screenshots
 
 ![image](screenshots/0.png)
 ![image](screenshots/1.png)

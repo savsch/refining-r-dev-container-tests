@@ -1,6 +1,6 @@
 # Hard-2 Test Results
 
-### Screenshot of the information messages shown when creating the workspace
+## Screenshot of the information messages shown when creating the workspace
 
 (with debug mode enabled)
 
@@ -10,16 +10,20 @@ The docker container:
 
 ![image](screenshots/docker-container.png)
 
-### Screenshot after following the [Running R](https://contributor.r-project.org/r-dev-env/tutorials/running_r/) tutorial
+---
+
+## Screenshot after following the [Running R](https://contributor.r-project.org/r-dev-env/tutorials/running_r/) tutorial
 
 ![running-r](screenshots/running-r.png)
 
-##### Screen Recording
+#### Screen Recording
 
 <video src="./screenshots/running_r.mp4" controls width=500></video>
 ![running-R-screen-recording](screenshots/running_r.mp4)
 
-### What works and what doesn't?
+---
+
+## What works and what doesn't?
 
 I was able to follow the [Running R](https://contributor.r-project.org/r-dev-env/tutorials/running_r/) tutorial without any hurdle.
 
