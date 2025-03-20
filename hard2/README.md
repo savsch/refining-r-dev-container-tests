@@ -34,3 +34,8 @@ I tried exploring an in-built dataset and made a few plots, and encountered no i
 The only issue I encountered is that the default library path (inside `usr`) is not writable by the ssh'ed-into user `vscode`, so a warning is shown for using a different library path while installing a package for the first time.
 
 ![image](screenshots/unwritable-default-library-path.png)
+
+
+#### Update (this subheading was added after posting the link to this test result on the wiki page)
+
+Playing around a little bit more, I found that some of the functionality (specifically, the `which_r` bash function included with the container) that is vscode-specific, also doesn't work in positron.
