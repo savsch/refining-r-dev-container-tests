@@ -39,3 +39,11 @@ The only issue I encountered is that the default library path (inside `usr`) is 
 #### Update (this subheading was added after posting the link to this test result on the wiki page)
 
 Playing around a little bit more, I found that some of the functionality (specifically, the `which_r` bash function included with the container) that is vscode-specific, also doesn't work in positron.
+
+Update#2:I could get `which_r` to work, albeit partially. This was by creating an empty (i.e. `{}`) `/workspaces/r-dev-env/.vscode/settings.json`, so the `which_r` script no longer fails to find the settings file. 
+- This works because positron (atleast when launched through devpod) uses the same R extension as vscode (for which `which_r` is designed) does.
+- This also does NOT work because positron ALSO uses its own console (e.g. for running, it doesn't use the R session "attached" by the aforementioned vscode R extension, but its own console).
+
+![devpod-positron-using-which_r](screenshots/devpod-positron-switching-which_R.png)
+
+Hence, I still need to figure out how to make the positron console use the built version.
